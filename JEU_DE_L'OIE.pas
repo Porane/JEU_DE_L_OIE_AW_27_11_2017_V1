@@ -8,10 +8,10 @@ algo et un code lisible et clair, on doit insérer des coms, on doit vérifier s
 
 {ALGORITHME : JEU_DE_L_OIE
 
-//BUT :
-//PRINCIPE :
-//ENTREES :
-//SORTIES :
+//BUT : faire un jeu de l'oie, avec les regles qui lui sont propres
+//PRINCIPE : utiliser une boucle REPETER et des conditions
+//ENTREES : place du joueur, son jet de des, et le nombre de tours, l'utilisateur ne saisit rien
+//SORTIES : la place du joueur ainsi que son jet a chaque tour, avec a la fin le nombre de tours 
 
 CONST
 
@@ -59,10 +59,10 @@ PROGRAM JEU_DE_L_OIE;
 
 USES crt;
 
-//BUT :
-//PRINCIPE :
-//ENTREES :
-//SORTIES :
+//BUT : faire un jeu de l'oie, avec les règles qui lui sont propres
+//PRINCIPE : utiliser une boucle REPETER et des conditions
+//ENTREES : place du joueur, son jet de des, et le nombre de tours, l'utilisateur ne saisit rien
+//SORTIES : la place du joueur ainsi que son jet a chaque tour, avec a la fin le nombre de tours 
 
 CONST
 
@@ -78,7 +78,7 @@ VAR
 BEGIN
 
 	clrscr;
-	RANDOMIZE;		//Cette fnction permet de rendre le jet aléatoire.
+	RANDOMIZE;		//Cette fonction permet de rendre le jet aléatoire.
 	place:=1;		//Initialisation des variables...
 	tour:=1;
 
